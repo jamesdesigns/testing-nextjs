@@ -80,7 +80,7 @@ export default function Home() {
             </svg>
           </span>
           <span>&nbsp;</span>
-          <span>ASEA</span>
+          <span>Products</span>
           <span>&nbsp;</span>
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
@@ -88,7 +88,7 @@ export default function Home() {
             </svg>
           </span>
           <span>&nbsp;</span>
-          <span>Products</span>
+          <span>RENU28</span>
         </div>
 
         <div className="flex justify-center">
@@ -278,9 +278,8 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-neutral-200 p-5 text-center dark:bg-neutral-700">
-          <span>© 2023 Copyright:</span>
-          <a className="font-semibold text-neutral-600 dark:text-neutral-400" href="https://tw-elements.com/">TW elements</a>
+        <div className="bg-neutral-200 p-8 text-center dark:bg-neutral-700">
+          <span>© 2023 ASEA LLC, All rights reserved.</span>
         </div>
       </footer>
       
