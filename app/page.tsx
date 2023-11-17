@@ -3,20 +3,20 @@ import Image from 'next/image'
 export default function Home() {
   return (
     
-    <main className="flex min-h-screen flex-col items-center justify-between p-6">
+    <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-      <ul className="w-24 min-w-full flex justify-between">
+      <ul className="w-24 min-w-full flex justify-between bg-white">
         <div className="flex-row">
           <li><Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="/ASEA Logo Black.svg"
+          alt="ASEA Logo"
           width={110}
           height={30}
           priority
         /></li>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row items-center">
           <li className="mr-6">
             <a className="text-gray-500 hover:text-blue-800" href="#">Products</a>
           </li>
@@ -33,7 +33,7 @@ export default function Home() {
             <a className="text-gray-500 hover:text-blue-800" href="#">Discover</a>
           </li>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row items-center">
           <li className="mr-6">
             <a className="text-black-500 hover:text-blue-800" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" class="w-6 h-6">
