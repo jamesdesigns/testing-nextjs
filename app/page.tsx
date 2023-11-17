@@ -5,14 +5,14 @@ export default function Home() {
     
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-      <ul className="w-24 min-w-full flex justify-between bg-white">
+      <ul className="w-24 min-w-full flex justify-between bg-white pt-2 pb-2">
         <div className="flex-row pl-10">
           <li><Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/ASEA Logo Black.svg"
           alt="ASEA Logo"
-          width={110}
-          height={30}
+          width={100}
+          height={25}
           priority
         /></li>
         </div>
@@ -68,10 +68,11 @@ export default function Home() {
       <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
         <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="flex flex-row">
-          <span>
+          <span><a href="#!" className="text-gray-500 hover:text-blue-800">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
             </svg>
+            </a>
           </span>
           <span>&nbsp;</span>
           <span>
@@ -80,7 +81,7 @@ export default function Home() {
             </svg>
           </span>
           <span>&nbsp;</span>
-          <span>Products</span>
+          <span><a href="#!" className="text-gray-500 hover:text-blue-800">Products</a></span>
           <span>&nbsp;</span>
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
@@ -88,7 +89,7 @@ export default function Home() {
             </svg>
           </span>
           <span>&nbsp;</span>
-          <span>RENU28</span>
+          <span><a href="#!" className="text-gray-500 hover:text-blue-800">RENU28</a></span>
         </div>
 
         <div className="flex justify-center">
@@ -186,22 +187,22 @@ export default function Home() {
                 Products
               </h6>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">ASEA Redox Supplement</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">ASEA Redox Supplement</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">RENU28</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">RENU28</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">RENUAdvanced</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">RENUAdvanced</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">ASEA Redox Clay Mask</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">ASEA Redox Clay Mask</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Cell Performance</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Cell Performance</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">ASEA VIA</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">ASEA VIA</a>
               </p>
             </div>
 
@@ -211,10 +212,10 @@ export default function Home() {
                 Opportunity
               </h6>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Earn</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Earn</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Events</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Events</a>
               </p>
             </div>
 
@@ -224,16 +225,16 @@ export default function Home() {
                 Science
               </h6>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Science</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Science</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Science</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Science</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Science</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Science</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Science</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Science</a>
               </p>
             </div>
 
@@ -243,22 +244,22 @@ export default function Home() {
                 Company
               </h6>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Contact us</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Contact us</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">About us</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">About us</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Leadership</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Leadership</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Careers</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Careers</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Mission Vision Values</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Mission Vision Values</a>
               </p>
               <p className="mb-5">
-                <a href="#!" className="text-neutral-600 dark:text-neutral-200">Advisory Council</a>
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Advisory Council</a>
               </p>
             </div>
 
@@ -268,10 +269,10 @@ export default function Home() {
                 Discover
               </h6>
               <p className="mb-5 flex items-center justify-center md:justify-start">
-                Press release
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Press release</a>
               </p>
               <p className="mb-5 flex items-center justify-center md:justify-start">
-                Media mention
+                <a href="#!" className="text-gray-500 hover:text-blue-800">Media mention</a>
               </p>
             </div>
           </div>
