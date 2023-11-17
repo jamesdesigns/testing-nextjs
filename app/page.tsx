@@ -5,7 +5,7 @@ export default function Home() {
     
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-      <ul className="w-24 min-w-full flex justify-between bg-white pt-2 pb-2">
+      <ul className="container xl-auto flex justify-between bg-white pt-2 pb-2">
         <div className="flex-row pl-10">
           <li><Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -65,7 +65,7 @@ export default function Home() {
 
 
 
-      <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
+      <footer className="container xl-auto bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
         <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="flex flex-row">
           <span><a href="#!" className="text-gray-500 hover:text-blue-800">
@@ -160,26 +160,6 @@ export default function Home() {
 
         <div className="mx-5 py-10 text-center md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
-
-            <div className="">
-              <h6
-                className="mb-5 flex items-center justify-center font-semibold uppercase md:justify-start">
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="mr-3 h-4 w-4">
-                  <path
-                    d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                </svg> */}
-                TW elements
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
-            </div>
 
             <div className="">
               <h6
@@ -279,7 +259,7 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-neutral-200 p-8 text-center dark:bg-neutral-700">
+        <div className="bg-neutral-200 pt-8 pb-8 text-center dark:bg-neutral-700">
           <span>© 2023 ASEA LLC, All rights reserved.</span>
         </div>
       </footer>
