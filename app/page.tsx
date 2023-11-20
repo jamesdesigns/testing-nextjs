@@ -36,7 +36,7 @@ export default function Home() {
         <div className="flex flex-row items-center pr-10">
           <li className="mr-6">
             <a className="text-black-500 hover:text-sky-600" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-3">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
               </svg>
               <span className="text-xs">&nbsp;Search</span>
@@ -44,7 +44,7 @@ export default function Home() {
           </li>
           <li className="mr-6">
             <a className="text-black-500 hover:text-sky-600" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
             </svg>
             <span className="text-xs">&nbsp;Log In</span>
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="container xl-auto bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
+      <footer className="container xl-auto bg-white text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
         <div className="mx-5 py-10 text-center md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
 
@@ -195,7 +195,7 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-neutral-200 pt-8 pb-8 text-center dark:bg-neutral-700">
+        <div className="bg-gray-100 pt-8 pb-8 text-center dark:bg-neutral-700">
           <span>© 2023 ASEA LLC, All rights reserved.</span>
         </div>
       </footer>
