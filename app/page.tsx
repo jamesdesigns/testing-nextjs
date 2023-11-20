@@ -48,7 +48,7 @@ export default function Home() {
             </svg>
             </a>
           </li>
-          <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="25" height="25" /></a></li>
+          <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="20" height="20" /></a></li>
         </div>
       </ul>
 
