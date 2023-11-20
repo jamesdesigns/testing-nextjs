@@ -16,7 +16,7 @@ export default function Home() {
           priority
         /></li>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row items-center font-light">
           <li className="mr-6 px-8">
             <a className="text-gray-500 hover:text-sky-600" href="#">Shop</a>
           </li>
@@ -33,7 +33,7 @@ export default function Home() {
             <a className="text-gray-500 hover:text-sky-600" href="#">Discover</a>
           </li>
         </div>
-        <div className="flex flex-row items-center pr-10">
+        <div className="flex flex-row items-center font-light pr-10">
           <li className="mr-6">
             <a className="text-black-500 hover:text-sky-600" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-3">
@@ -66,7 +66,7 @@ export default function Home() {
           priority
         /> */}
 
-        <div className="flex items-start flex-row content-start z-[10]">
+        <div className="flex items-start flex-row font-light content-start z-[10]">
             <span><a href="#!" className="text-gray-500 hover:text-sky-600">
               {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="container xl-auto bg-white text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
+      <footer className="container xl-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
         <div className="mx-5 py-10 text-center md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
 
