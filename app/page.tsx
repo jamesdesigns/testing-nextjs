@@ -50,7 +50,7 @@ export default function Home() {
             <span className="text-xs">&nbsp;Log In</span>
             </a>
           </li>
-          <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" /></a><span className="text-xs">&nbsp;EN</span></li>
+          <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" /><span className="text-xs">&nbsp;EN</span></a></li>
         </div>
       </ul>
       
@@ -195,7 +195,7 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-gray-100 pt-8 pb-8 text-center dark:bg-neutral-700">
+        <div className="bg-gray-100 pt-8 pb-8 text-xs text-center dark:bg-neutral-700">
           <span>© 2023 ASEA LLC, All rights reserved.</span>
         </div>
       </footer>
