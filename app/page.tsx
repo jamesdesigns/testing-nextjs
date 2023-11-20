@@ -51,6 +51,7 @@ export default function Home() {
             </a>
           </li>
           <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" /><span className="text-xs">&nbsp;EN</span></a></li>
+          <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" /><span className="text-xs">&nbsp;EN</span></a></li>
         </div>
       </ul>
       
