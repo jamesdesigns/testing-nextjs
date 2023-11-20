@@ -51,7 +51,7 @@ export default function Home() {
             </a>
           </li>
           <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" /><span className="text-xs">&nbsp;EN</span></a></li>
-          <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" /><span className="text-xs">&nbsp;EN</span></a></li>
+          <li className="mr-6"><a className="text-black-500 hover:text-sky-600" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" /><span className="text-xs">Light</span></a></li>
         </div>
       </ul>
       
@@ -77,7 +77,7 @@ export default function Home() {
             </span>
             <span>&nbsp;</span>
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
             </span>
@@ -85,7 +85,7 @@ export default function Home() {
             <span><a href="#!" className="text-gray-500 hover:text-sky-600">Shop</a></span>
             <span>&nbsp;</span>
             <span>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
             </span>
@@ -100,95 +100,95 @@ export default function Home() {
 
             <div className="">
               <h6
-                className="mb-5 flex items-center justify-center font-semibold uppercase md:justify-start">
+                className="mb-6 flex items-center justify-center font-semibold uppercase md:justify-start">
                 Shop
               </h6>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">ASEA Redox Supplement</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">RENU28</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">RENUAdvanced</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">ASEA Redox Clay Mask</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Cell Performance</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">ASEA VIA</a>
               </p>
             </div>
 
             <div className="">
               <h6
-                className="mb-5 flex justify-center font-semibold uppercase md:justify-start">
+                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
                 Opportunity
               </h6>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Earn</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Events</a>
               </p>
             </div>
 
             <div className="">
               <h6
-                className="mb-5 flex justify-center font-semibold uppercase md:justify-start">
+                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
                 Science
               </h6>
-              <p className="mb-5">
+              <p className="mb-3">
+                <a href="#!" className="text-gray-500 hover:text-sky-600">Science Overview</a>
+              </p>
+              <p className="mb-3">
+                <a href="#!" className="text-gray-500 hover:text-sky-600">Redox Cell Signaling</a>
+              </p>
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Science</a>
               </p>
-              <p className="mb-5">
-                <a href="#!" className="text-gray-500 hover:text-sky-600">Science</a>
-              </p>
-              <p className="mb-5">
-                <a href="#!" className="text-gray-500 hover:text-sky-600">Science</a>
-              </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Science</a>
               </p>
             </div>
 
             <div className="">
               <h6
-                className="mb-5 flex justify-center font-semibold uppercase md:justify-start">
+                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
                 Company
               </h6>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Contact us</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">About us</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Leadership</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Careers</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Mission Vision Values</a>
               </p>
-              <p className="mb-5">
+              <p className="mb-3">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Advisory Council</a>
               </p>
             </div>
 
             <div>
               <h6
-                className="mb-5 flex justify-center font-semibold uppercase md:justify-start">
+                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
                 Discover
               </h6>
-              <p className="mb-5 flex items-center justify-center md:justify-start">
+              <p className="mb-3 flex items-center justify-center md:justify-start">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Press release</a>
               </p>
-              <p className="mb-5 flex items-center justify-center md:justify-start">
+              <p className="mb-3 flex items-center justify-center md:justify-start">
                 <a href="#!" className="text-gray-500 hover:text-sky-600">Media mention</a>
               </p>
             </div>
@@ -196,7 +196,7 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-gray-100 pt-8 pb-8 text-xs text-center dark:bg-neutral-700">
+        <div className="bg-gray-100 pt-8 pb-8 text-sm text-center dark:bg-neutral-700">
           <span>© 2023 ASEA LLC, All rights reserved.</span>
         </div>
       </footer>
