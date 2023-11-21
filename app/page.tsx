@@ -5,7 +5,7 @@ export default function Home() {
     
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-      <ul className="container xl-auto flex justify-between bg-white pt-2 pb-2">
+      <ul className="container xl-auto flex justify-between bg-white pt-4 pb-4">
         <div className="flex-row pl-10">
           <li><Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -21,10 +21,10 @@ export default function Home() {
             <a className="text-zinc-700 hover:text-sky-600" href="#">Shop</a>
           </li>
           <li className="mr-6 px-8">
-            <a className="text-zinc-700 hover:text-sky-600" href="#">Opportunity</a>
+            <a className="text-zinc-700 hover:text-sky-600" href="#">Science</a>
           </li>
           <li className="mr-6 px-8">
-            <a className="text-zinc-700 hover:text-sky-600" href="#">Science</a>
+            <a className="text-zinc-700 hover:text-sky-600" href="#">Opportunity</a>
           </li>
           <li className="mr-6 px-8">
             <a className="text-zinc-700 hover:text-sky-600" href="#">Company</a>
@@ -57,18 +57,8 @@ export default function Home() {
       
 
     <div className="relative flex items-start">
-      {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"> */}
-        {/* <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        /> */}
-
         <div className="flex items-start flex-row font-light content-start z-[10]">
-            <span><a href="#!" className="text-zinc-500 hover:text-sky-600">
+            <span><a href="#" className="text-zinc-500 hover:text-sky-600">
               <img src="icons8-home.svg" width="24" height="auto" />
               </a>
             </span>
@@ -90,6 +80,7 @@ export default function Home() {
             <span><a href="#!" className="text-zinc-500 hover:text-sky-600">RENU28</a></span>
         </div>
       </div>
+
 
       <footer className="container xl-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
         <div className="mx-5 py-10 text-center md:text-left">
@@ -120,18 +111,6 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="">
-              <h6
-                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
-                Opportunity
-              </h6>
-              <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Earn</a>
-              </p>
-              <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Events</a>
-              </p>
-            </div>
 
             <div className="">
               <h6
@@ -149,6 +128,20 @@ export default function Home() {
               </p>
               <p className="mb-3">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Science</a>
+              </p>
+            </div>
+
+
+            <div className="">
+              <h6
+                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
+                Opportunity
+              </h6>
+              <p className="mb-3">
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Earn</a>
+              </p>
+              <p className="mb-3">
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Events</a>
               </p>
             </div>
 
