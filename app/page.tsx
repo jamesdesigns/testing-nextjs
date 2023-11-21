@@ -167,32 +167,32 @@ export default function Home() {
             <div className="">
               <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Company</h6>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Contact us</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">About Us</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">About us</a>
-              </p>
-              <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Leadership</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Advisory Council</a>
               </p>
               <p className="mb-3">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Careers</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Mission Vision Values</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Contact Us</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Advisory Council</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Leadership</a>
+              </p>
+              <p className="mb-3">
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Mission Vision Values</a>
               </p>
             </div>
 
             <div>
               <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Discover</h6>
               <p className="mb-3 flex items-center text-left md:justify-start">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Press release</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Media Mention</a>
               </p>
               <p className="mb-3 flex items-center text-left md:justify-start">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Media mention</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Press Release</a>
               </p>
             </div>
           </div>
@@ -202,7 +202,7 @@ export default function Home() {
 
 
       <div className="bg-zinc-100 w-full">
-        <ul className="container flex mx-auto justify-between bg-zinc-100 pt-8 pb-8">
+        <ul className="container flex mx-auto justify-between bg-zinc-100 pt-7 pb-7">
           <div className="flex flex-row items-center pl-20 text-zinc-700 text-sm">
             <li>Privacy Policy  |  Cookie Preference  |  Notices</li>
           </div>
