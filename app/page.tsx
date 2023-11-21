@@ -56,8 +56,9 @@ export default function Home() {
       </ul>
       
 
-    <div className="relative flex items-start">
-        <div className="flex items-start flex-row font-light content-start z-[10]">
+    <div className="container xl-auto relative flex items-start pl-20">
+        {/* <div className="flex items-start flex-row font-light content-start z-[10] float-left"> */}
+        <div className="flex justify-start justify-items-start">
             <span><a href="#" className="text-zinc-500 hover:text-sky-600">
               <img src="icons8-home.svg" width="24" height="auto" />
               </a>
@@ -82,7 +83,7 @@ export default function Home() {
       </div>
 
 
-      <footer className="container xl-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-10 pr-10">
+      <footer className="container xl-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-16 pr-16">
         <div className="mx-5 py-10 text-center md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
 
