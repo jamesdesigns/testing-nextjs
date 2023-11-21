@@ -39,7 +39,7 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-3">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
               </svg>
-              <span className="text-xs">&nbsp;Search</span>
+              {/* <span className="text-xs">&nbsp;Search</span> */}
             </a>
           </li>
           <li className="mr-6">
@@ -47,16 +47,20 @@ export default function Home() {
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
             </svg>
-            <span className="text-xs">&nbsp;Log In</span>
+            {/* <span className="text-xs">&nbsp;Log In</span> */}
             </a>
           </li>
-          <li className="mr-6"><a className="text-zinc-700 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" /><span className="text-xs">&nbsp;EN</span></a></li>
-          <li className="mr-6"><a className="text-zinc-700 hover:text-sky-600" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" /><span className="text-xs">Light</span></a></li>
+          <li className="mr-6"><a className="text-zinc-700 hover:text-sky-600" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" />
+          {/* <span className="text-xs">&nbsp;EN</span> */}
+          </a></li>
+          <li className="mr-6"><a className="text-zinc-700 hover:text-sky-600" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" />
+          {/* <span className="text-xs">Light</span> */}
+          </a></li>
         </div>
       </ul>
       
 
-    <div className="container xl-auto relative flex items-start pl-20">
+    <div className="container xl-auto relative flex items-start pl-20 p-10 min-h-screen">
         {/* <div className="flex items-start flex-row font-light content-start z-[10] float-left"> */}
         <div className="flex justify-start justify-items-start">
             <span><a href="#" className="text-zinc-500 hover:text-sky-600">
@@ -70,7 +74,7 @@ export default function Home() {
               </svg>
             </span>
             <span>&nbsp;</span>
-            <span><a href="#!" className="text-zinc-500 hover:text-sky-600">Shop</a></span>
+            <span><a href="#" className="text-zinc-500 hover:text-sky-600">Shop</a></span>
             <span>&nbsp;</span>
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
@@ -78,7 +82,7 @@ export default function Home() {
               </svg>
             </span>
             <span>&nbsp;</span>
-            <span><a href="#!" className="text-zinc-500 hover:text-sky-600">RENU28</a></span>
+            <span><a href="#" className="text-zinc-500 hover:text-sky-600">RENU28</a></span>
         </div>
       </div>
 
@@ -93,28 +97,60 @@ export default function Home() {
                 Shop
               </h6>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">ASEA Redox Supplement</a>
+                <a href="#" className="text-zinc-700 hover:text-sky-600">ASEA Redox Supplement</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">RENU28</a>
+                <a href="#" className="text-zinc-700 hover:text-sky-600">RENU28</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">RENUAdvanced</a>
+                <a href="#" className="text-zinc-700 hover:text-sky-600">REDOXEnergy</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">ASEA Redox Clay Mask</a>
+                <a href="#" className="text-zinc-700 hover:text-sky-600">REDOXMood</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Cell Performance</a>
+                <a href="#" className="text-zinc-700 hover:text-sky-600">REDOXRadiance</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">ASEA VIA</a>
+                <a href="#" className="text-zinc-700 hover:text-sky-600">RENUAdvanced Foaming Cleanser</a>
+              </p>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">RENUAdvanced Balancing Cleanser</a>
               </p>
             </div>
 
 
             <div className="">
               <h6
+                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
+                Shop (Cont.)
+              </h6>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">RENUAdvanced Glow Serum</a>
+              </p>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">RENUAdvanced Hydrating Moisturizer</a>
+              </p>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">Redox Clay Mask</a>
+              </p>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">Via Biome</a>
+              </p>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">Via Lifemax</a>
+              </p>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">Via Source</a>
+              </p>
+              <p className="mb-3">
+                <a href="#" className="text-zinc-700 hover:text-sky-600">Via Omega</a>
+              </p>
+            </div>
+
+
+            <div className="">
+            <h6
                 className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
                 Science
               </h6>
@@ -124,16 +160,7 @@ export default function Home() {
               <p className="mb-3">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Redox Cell Signaling</a>
               </p>
-              <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Science</a>
-              </p>
-              <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Science</a>
-              </p>
-            </div>
-
-
-            <div className="">
+              <br></br>
               <h6
                 className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
                 Opportunity
