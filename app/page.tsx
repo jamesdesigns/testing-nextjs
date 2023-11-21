@@ -5,7 +5,8 @@ export default function Home() {
     
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-      <ul className="container xl-auto flex justify-between bg-white pt-4 pb-4">
+    <div className="bg-white w-full">
+      <ul className="container mx-auto flex justify-between bg-white pt-4 pb-4">
         <div className="flex-row pl-10">
           <li><Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -58,6 +59,7 @@ export default function Home() {
           </a></li>
         </div>
       </ul>
+    </div>
       
 
     <div className="container xl-auto relative flex items-start pl-20 p-10 min-h-screen">
@@ -86,16 +88,14 @@ export default function Home() {
         </div>
       </div>
 
+<div className="bg-white w-full">
 
-      <footer className="container xl-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-16 pr-16">
-        <div className="mx-5 py-10 text-center md:text-left">
+      <footer className="container mx-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-16 pr-16">
+        <div className="mx-5 py-16 text-left md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
 
             <div className="">
-              <h6
-                className="mb-6 flex items-center justify-center font-semibold uppercase md:justify-start">
-                Shop
-              </h6>
+              <h6 className="text-slate-950 mb-6 flex items-center text-left font-semibold uppercase md:justify-start">Shop</h6>
               <p className="mb-3">
                 <a href="#" className="text-zinc-700 hover:text-sky-600">ASEA Redox Supplement</a>
               </p>
@@ -121,10 +121,7 @@ export default function Home() {
 
 
             <div className="">
-              <h6
-                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
-                Shop (Cont.)
-              </h6>
+              <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Shop (Cont.)</h6>
               <p className="mb-3">
                 <a href="#" className="text-zinc-700 hover:text-sky-600">RENUAdvanced Glow Serum</a>
               </p>
@@ -150,10 +147,7 @@ export default function Home() {
 
 
             <div className="">
-            <h6
-                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
-                Science
-              </h6>
+              <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Science</h6>
               <p className="mb-3">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Science Overview</a>
               </p>
@@ -161,10 +155,7 @@ export default function Home() {
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Redox Cell Signaling</a>
               </p>
               <br></br>
-              <h6
-                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
-                Opportunity
-              </h6>
+              <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Opportunity</h6>
               <p className="mb-3">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Earn</a>
               </p>
@@ -174,10 +165,7 @@ export default function Home() {
             </div>
 
             <div className="">
-              <h6
-                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
-                Company
-              </h6>
+              <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Company</h6>
               <p className="mb-3">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Contact us</a>
               </p>
@@ -199,14 +187,11 @@ export default function Home() {
             </div>
 
             <div>
-              <h6
-                className="mb-6 flex justify-center font-semibold uppercase md:justify-start">
-                Discover
-              </h6>
-              <p className="mb-3 flex items-center justify-center md:justify-start">
+              <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Discover</h6>
+              <p className="mb-3 flex items-center text-left md:justify-start">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Press release</a>
               </p>
-              <p className="mb-3 flex items-center justify-center md:justify-start">
+              <p className="mb-3 flex items-center text-left md:justify-start">
                 <a href="#!" className="text-zinc-700 hover:text-sky-600">Media mention</a>
               </p>
             </div>
@@ -214,10 +199,16 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-zinc-100 pt-8 pb-8 text-sm text-center dark:bg-neutral-700">
+      </footer>
+
+      <div className="bg-zinc-100 w-full">
+        <div className="bg-zinc-100 text-zinc-700 pt-8 pb-8 text-sm text-center dark:bg-neutral-700 mx-auto">
           <span>© 2023 ASEA LLC, All rights reserved.</span>
         </div>
-      </footer>
+      </div>
+
+
+    </div>
       
     </main>
   )
