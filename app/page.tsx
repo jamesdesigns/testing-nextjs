@@ -203,8 +203,8 @@ export default function Home() {
 
       <div className="bg-zinc-100 w-full">
         <ul className="container flex mx-auto justify-between bg-zinc-100 pt-7 pb-7">
-          <div className="flex flex-row items-center pl-20 text-zinc-700 text-sm">
-            <li>Privacy Policy  |  Cookie Preference  |  Notices</li>
+          <div className="flex flex-row items-center pl-20 text-zinc-700 text-sm font-light">
+            <li>Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;  Cookie Preference  &nbsp;&nbsp;|&nbsp;&nbsp;  Notices</li>
           </div>
 
           <div className="flex flex-row items-center font-light">
