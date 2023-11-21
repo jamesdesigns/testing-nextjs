@@ -198,15 +198,38 @@ export default function Home() {
           </div>
         </div>
 
-
       </footer>
 
-      <div className="bg-zinc-100 w-full">
-        <div className="bg-zinc-100 text-zinc-700 pt-8 pb-8 text-sm text-center dark:bg-neutral-700 mx-auto">
-          <span>© 2023 ASEA LLC, All rights reserved.</span>
-        </div>
-      </div>
 
+      <div className="bg-zinc-100 w-full">
+        <ul className="container flex mx-auto justify-between bg-zinc-100 pt-8 pb-8">
+          <div className="flex flex-row items-center pl-20 text-zinc-700 text-sm">
+            <li>Privacy Policy  |  Cookie Preference  |  Notices</li>
+          </div>
+
+          <div className="flex flex-row items-center font-light">
+            <li className="mr-0 px-0">
+              <a className="text-zinc-700 hover:text-sky-600" href="#"><img src="twitter.png" alt="Twitter Icon" width="48" height="auto" /></a>
+            </li>
+            <li className="mr-0 px-0">
+              <a className="text-zinc-700 hover:text-sky-600" href="#"><img src="Instagram.png" alt="Instagram Icon" width="48" height="auto" /></a>
+            </li>
+            <li className="mr-0 px-0">
+              <a className="text-zinc-700 hover:text-sky-600" href="#"><img src="Facebook.png" alt="Facebook Icon" width="48" height="auto" /></a>
+            </li>
+            <li className="mr-0 px-0">
+              <a className="text-zinc-700 hover:text-sky-600" href="#"><img src="YouTube.png" alt="YouTube Icon" width="48" height="auto" /></a>
+            </li>
+            <li className="mr- px-0">
+              <a className="text-zinc-700 hover:text-sky-600" href="#"><img src="LinkedIn.png" alt="LinkedIn Icon" width="48" height="auto" /></a>
+            </li>
+          </div>
+
+          <div className="flex flex-row items-center font-light pr-20">
+            <li className="mr-5 text-zinc-700 text-sm">© 2023 ASEA LLC, All rights reserved.</li>
+          </div>
+        </ul>
+      </div>
 
     </div>
       
