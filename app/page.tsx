@@ -395,7 +395,7 @@ export default function Home() {
       <div className="bg-zinc-100 w-full">
         <ul className="container flex flex-col md:flex-row mx-auto justify-between bg-zinc-100 pt-7 pb-7">
             <div className="flex flex-row items-center pl-10 pb-4 md:pb-0 text-zinc-700 text-sm font-light">
-              <li>Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;  Cookie Preference  &nbsp;&nbsp;|&nbsp;&nbsp;  Notices</li>
+              <li className="mr-5 text-zinc-700 text-sm">© 2023 ASEA LLC, All rights reserved.</li>
             </div>
 
             <div className="flex flex-row items-center font-light pb-4 md:pb-0 mx-auto md:pl-20">
@@ -417,7 +417,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-row items-center mx-auto font-light md:pr-20">
-              <li className="mr-5 text-zinc-700 text-sm">© 2023 ASEA LLC, All rights reserved.</li>
+              <li className="text-zinc-700 text-sm"><a className="hover:text-blue-700" href="#">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;  <a className="hover:text-blue-700" href="#">Cookie Preference</a>  &nbsp;&nbsp;|&nbsp;&nbsp;  <a className="hover:text-blue-700" href="#">Notices</a></li>
             </div>
           </ul>
       </div>
