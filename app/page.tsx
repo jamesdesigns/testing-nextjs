@@ -5,7 +5,7 @@ export default function Home() {
     
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-    <div className="bg-white w-full">
+    <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600">
       <ul className="container mx-auto flex justify-between bg-white pt-4 pb-4">
         <div className="flex-row pl-10">
           <li><Image
@@ -62,7 +62,7 @@ export default function Home() {
     </div>
       
 
-    <div className="container xl-auto relative flex items-start pl-20 p-10 min-h-screen">
+    <div className="fixed container xl-auto relative flex items-start pl-10 ml-4 pt-20 mt-10">
         {/* <div className="flex items-start flex-row font-light content-start z-[10] float-left"> */}
         <div className="flex justify-start justify-items-start">
             <span><a href="#" className="text-zinc-500 hover:text-sky-600">
@@ -149,10 +149,10 @@ export default function Home() {
             <div className="">
               <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Science</h6>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Science Overview</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Redox Cell Signaling</a>
               </p>
               <p className="mb-3">
-                <a href="#!" className="text-zinc-700 hover:text-sky-600">Redox Cell Signaling</a>
+                <a href="#!" className="text-zinc-700 hover:text-sky-600">Science Overview</a>
               </p>
               <br></br>
               <h6 className="text-slate-950 mb-6 flex text-left font-semibold uppercase md:justify-start">Opportunity</h6>
@@ -230,10 +230,9 @@ export default function Home() {
             </div>
           </ul>
       </div>
-
     </div>
 
-    <div className="blue-talk-icon">
+    <div className="blue-talk-icon absolute bottom-0 right-0 pb-3 pr-10">
       <img src="Blue-Talk-Icon.png" alt="Talk" width="75" height="auto" />
     </div>
       
