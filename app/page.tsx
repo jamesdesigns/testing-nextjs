@@ -232,6 +232,10 @@ export default function Home() {
       </div>
 
     </div>
+
+    <div className="blue-talk-icon">
+      <img src="Blue-Talk-Icon.png" alt="Talk" width="75" height="auto" />
+    </div>
       
     </main>
   )
