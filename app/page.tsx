@@ -274,7 +274,15 @@ export default function Home() {
               </svg>
             </span>
             <span>&nbsp;</span>
-            <span><a href="#" className="text-zinc-500 hover:text-blue-700">RENU28</a></span>
+            <span><a href="#" className="text-zinc-500 hover:text-blue-700">Supplements</a></span>
+            <span>&nbsp;</span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </span>
+            <span>&nbsp;</span>
+            <span><a href="#" className="text-blue-600 hover:text-blue-600">ASEA Via Biome</a></span>
         </div>
       </div>
 
