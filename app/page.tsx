@@ -298,9 +298,9 @@ export default function Home() {
       <input type="checkbox" id="check" />
 
       <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
-      <li className="relative group">
-              <a href="#" className="mr-6 px-8 text-zinc-700 hover:text-blue-700">Shop</a> 
-              <i className="fa-solid fa-chevron-down fa-2xs pt-3"></i>
+      <li className="relative group text-zinc-700">
+              <a href="#" className="mr-4 text-zinc-700 hover:text-blue-700">Shop</a> 
+              {/* <i className="fa-solid fa-chevron-down fa-2xs pt-3 text-zinc-700"></i> */}
 
               <ul className="flex flex-row absolute bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
                 <div>
