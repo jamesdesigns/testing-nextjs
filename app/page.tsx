@@ -302,13 +302,18 @@ export default function Home() {
               <a href="#" className="mr-4 text-zinc-700 hover:text-blue-700">Shop</a> 
               {/* <i className="fa-solid fa-chevron-down fa-2xs pt-3 text-zinc-700"></i> */}
 
-              <ul className="flex flex-row absolute bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+              <ul className="flex flex-row absolute bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg pt-20 pb-20 pl-5 w-full">
                 <div>
                 <li className="text-sm hover:bg-slate-100 leading-8 pl-5 pr-10 text-zinc-700 hover:text-blue-700"><b><a href="#">Filter</a></b></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Digital marketing</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">SEO</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Ad campaigns</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">UX Design</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">New Arrivals</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Beauty + Skincare</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Brain and Mind</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Daily</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Energy</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Gut Health</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Redox</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Supplements</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Uplift Mood</a></li>
                 </div>
                 <ul>
                   <div className="min-w-full">
@@ -368,7 +373,7 @@ export default function Home() {
 </div>
 
 
-<div className="bg-white w-full pt-20 mt-20">
+<div className="bg-white w-full pt-20 mt-20 pl-20">
         <h1>Hello Test.</h1>
 </div>
 
