@@ -1,14 +1,15 @@
 import Image from 'next/image'
 import { Collapse, Dropdown, Ripple, initTE} from 'tw-elements'
+import 'styles.css'
 
 export default function Home() {
 
   return (
-    
+    <body>
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-    <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600">
-      <ul className="container mx-auto flex justify-between bg-white pt-4 pb-4">
+    <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600 ">
+      {/* <ul className="container mx-auto flex justify-between bg-white pt-4 pb-4">
         <div className="flex-row pl-10">
           <li><Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -36,7 +37,8 @@ export default function Home() {
           <li className="mr-6 px-8">
             <a className="text-zinc-700 hover:text-blue-600" href="#">Discover</a>
           </li>
-        </div>
+        </div> */}
+
 {/* initTE({Collapse, Dropdown, Ripple }); */}
 {/* 
 <nav
@@ -224,13 +226,12 @@ export default function Home() {
 </nav> */}
 
 
-        <div className="flex flex-row items-center font-light pr-10">
+        {/* <div className="flex flex-row items-center font-light pr-10">
           <li className="mr-5">
             <a className="text-zinc-700 hover:text-blue-700" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-3">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
               </svg>
-              {/* <span className="text-xs">&nbsp;Search</span> */}
             </a>
           </li>
           <li className="mr-6">
@@ -238,14 +239,11 @@ export default function Home() {
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
             </svg>
-            {/* <span className="text-xs">&nbsp;Log In</span> */}
             </a>
           </li>
           <li className="mr-6"><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" />
-          {/* <span className="text-xs">&nbsp;EN</span> */}
           </a></li>
           <li className="mr-6"><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" />
-          {/* <span className="text-xs">Light</span> */}
           </a></li>
         </div>
       </ul>
@@ -253,44 +251,132 @@ export default function Home() {
       
 
     <div className="fixed container xl-auto relative flex items-start pl-10 ml-4 pt-20 mt-10">
-        {/* <div className="flex items-start flex-row font-light content-start z-[10] float-left"> */}
         <div className="flex justify-start justify-items-start">
-            <span><a href="#" className="text-zinc-500 hover:text-blue-700">
-              <img src="icons8-home.svg" width="24" height="auto" />
-              </a>
-            </span>
-            <span>&nbsp;</span>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          <span><a href="#" className="text-zinc-500 hover:text-blue-700">
+          <img src="icons8-home.svg" width="24" height="auto" />
+               </a>
+             </span>
+             <span>&nbsp;</span>
+             <span>
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+               </svg>
+             </span>
+             <span>&nbsp;</span>
+             <span><a href="#" className="text-zinc-500 hover:text-blue-700">Shop</a></span>
+             <span>&nbsp;</span>
+             <span>
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+               </svg>
+             </span>
+             <span>&nbsp;</span>
+             <span><a href="#" className="text-zinc-500 hover:text-blue-700">Supplements</a></span>
+             <span>&nbsp;</span>
+             <span>
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+               </svg>
+             </span>
+             <span>&nbsp;</span>
+             <span><a href="#" className="text-blue-600 hover:text-blue-600">ASEA Via Biome</a></span>
+         </div> */}
+
+<header>
+  <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+      <a className="logo" href="#">
+      <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src="ASEA Logo Black.svg"
+          alt="ASEA Logo"
+          width={108}
+          height={27}
+          priority
+        />
+      </a>
+      <input type="checkbox" id="check" />
+
+      <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
+      <li className="relative group">
+              <a href="#" className="mr-6 px-8 text-zinc-700 hover:text-blue-700">Shop</a> 
+              <i className="fa-solid fa-chevron-down fa-2xs pt-3"></i>
+
+              <ul className="flex flex-row absolute bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg">
+                <div>
+                <li className="text-sm hover:bg-slate-100 leading-8 pl-5 pr-10 text-zinc-700 hover:text-blue-700"><b><a href="#">Filter</a></b></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Digital marketing</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">SEO</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Ad campaigns</a></li>
+                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">UX Design</a></li>
+                </div>
+                <ul>
+                  <div className="min-w-full">
+                    <li className="pl-5 pr-10 text-zinc-700 mr-20 hover:text-blue-700">image one</li>
+                    <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image two</li>
+                    <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image three</li>
+                    <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image four</li>
+                  </div>
+                </ul>
+
+                <ul>
+                  <div className="min-w-full">
+                    <li className="mr-6 px-8 text-zinc-700 hovertext-blue-700">image five</li>
+                    <li className="mr-6 px-8 text-zinc-700 hover:text-blue-700">image six</li>
+                    <li className="mr-6 px-8 text-zinc-700 hover:text-blue-700">image seven</li>
+                    <li className="mr-6 px-8text-zinc-700 hover:text-blue-700">image eight</li>
+                  </div>
+                </ul>
+              </ul>
+
+
+            </li>
+        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Science</a></li>
+        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Opportunity</a></li>
+        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Company</a></li>
+        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Discover</a></li>
+
+        <label htmlFor="check" className="close-menu">X</label>
+      </span>
+      
+      <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
+        <li>            
+            <a className="text-zinc-700 hover:text-blue-700" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
               </svg>
-            </span>
-            <span>&nbsp;</span>
-            <span><a href="#" className="text-zinc-500 hover:text-blue-700">Shop</a></span>
-            <span>&nbsp;</span>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-              </svg>
-            </span>
-            <span>&nbsp;</span>
-            <span><a href="#" className="text-zinc-500 hover:text-blue-700">Supplements</a></span>
-            <span>&nbsp;</span>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-              </svg>
-            </span>
-            <span>&nbsp;</span>
-            <span><a href="#" className="text-blue-600 hover:text-blue-600">ASEA Via Biome</a></span>
-        </div>
-      </div>
+            </a></li>
+        <li>            
+          <a className="text-zinc-700 hover:text-blue-700" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+            </a></li>
+        <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" />
+          </a></li>
+        <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" />
+          </a></li>
+
+        <label htmlFor="check" className="close-menu">X</label>
+      </span>
+
+      <label htmlFor="check" className="open-menu">Menu</label>
+    </ul>
+  </nav>
+</header>
+
+</div>
+
+
+<div className="bg-white w-full pt-20 mt-20">
+        <h1>Hello Test.</h1>
+</div>
 
 <div className="bg-white w-full">
 
       <footer className="container mx-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-6 pr-6">
         <div className="mx-5 py-16 text-left md:text-left">
-          <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-5">
+          <div className="grid grid-cols-5 gap-5">
 
             <div className="">
               <h6 className="text-slate-950 mb-6 flex items-center text-left font-semibold uppercase md:justify-start">Shop</h6>
@@ -433,7 +519,10 @@ export default function Home() {
     <div className="blue-talk-icon absolute bottom-0 right-0 pb-3 pr-10">
       <img src="Blue-Talk-Icon.png" alt="Talk" width="75" height="auto" />
     </div>
+
   </main>
+  <script src="script.js" / >  
+  </body>
 
 
   )
