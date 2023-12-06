@@ -9,368 +9,93 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
     <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600 ">
-      {/* <ul className="container mx-auto flex justify-between bg-white pt-4 pb-4">
-        <div className="flex-row pl-10">
-          <li><Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/ASEA Logo Black.svg"
-          alt="ASEA Logo"
-          width={108}
-          height={27}
-          priority
-        /></li>
-        </div>
-
-        <div className="flex flex-row items-center font-light">
-          <li className="mr-6 px-8">
-            <a className="text-zinc-700 hover:text-blue-700" href="#">Shop</a>
-          </li>
-          <li className="mr-6 px-8">
-            <a className="text-zinc-700 hover:text-blue-700" href="#">Science</a>
-          </li>
-          <li className="mr-6 px-8">
-            <a className="text-zinc-700 hover:text-blue-700" href="#">Opportunity</a>
-          </li>
-          <li className="mr-6 px-8">
-            <a className="text-zinc-700 hover:text-blue-700" href="#">Company</a>
-          </li>
-          <li className="mr-6 px-8">
-            <a className="text-zinc-700 hover:text-blue-600" href="#">Discover</a>
-          </li>
-        </div> */}
-
-{/* initTE({Collapse, Dropdown, Ripple }); */}
-{/* 
-<nav
-  className="relative flex w-full items-center justify-between bg-neutral-50 py-2 text-neutral-600 shadow-lg dark:bg-neutral-700 dark:text-neutral-300 dark:shadow-black/5 lg:flex-wrap lg:justify-start"
-  data-te-navbar-ref>
-  <div className="px-6">
-    <button
-      className="border-0 bg-transparent py-3 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
-      type="button"
-      data-te-collapse-init
-      data-te-target="#navbarSupportedContentY"
-      aria-controls="navbarSupportedContentY"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span className="[&>svg]:w-8">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          className="h-8 w-8">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
-      </span>
-    </button>
-    <div
-      className="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
-      id="navbarSupportedContentY"
-      data-te-collapse-item>
-      <ul className="mr-auto flex flex-row" data-te-navbar-nav-ref>
-        <li data-te-nav-item-ref>
-          <a
-            className="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:px-2"
-            href="#!"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            >Regular link</a>
-        </li>
-        <li className="static" data-te-nav-item-ref data-te-dropdown-ref>
-          <a
-            className="flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:px-2"
-            href="#"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            type="button"
-            id="dropdownMenuButtonX"
-            data-te-dropdown-toggle-ref
-            aria-expanded="false"
-            data-te-nav-link-ref
-            >Mega menu
-            <span className="ml-2 w-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5">
-                <path
-                  fill-rule="evenodd"
-                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                  clip-rule="evenodd" />
-              </svg>
-            </span>
-          </a>
-          <div
-            className="absolute left-0 right-0 top-full z-[1000] mt-0 hidden w-full border-none bg-white bg-clip-padding text-neutral-600 shadow-lg dark:bg-neutral-700 dark:text-neutral-200 [&[data-te-dropdown-show]]:block"
-            aria-labelledby="dropdownMenuButtonY"
-            data-te-dropdown-menu-ref>
-            <div className="px-6 py-5 lg:px-8">
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-                <div>
-                  <p
-                    className="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    Lorem ipsum
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Dolor sit</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Amet consectetur</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Cras justo odio</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Adipisicing elit</a>
-                </div>
-                <div>
-                  <p
-                    className="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    Explit voluptas
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Perspiciatis quo</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Cras justo odio</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Laudantium maiores</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Provident dolor</a>
-                </div>
-                <div>
-                  <p
-                    className="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    Iste quaerato
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Cras justo odio</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Est iure</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Praesentium</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Laboriosam</a>
-                </div>
-                <div>
-                  <p
-                    className="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    Cras justo odio
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Saepe</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Vel alias</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Sunt doloribus</a>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    className="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Cum dolores</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> */}
-
-
-        {/* <div className="flex flex-row items-center font-light pr-10">
-          <li className="mr-5">
-            <a className="text-zinc-700 hover:text-blue-700" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-3">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-              </svg>
+      <header>
+        <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+          <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+            <a className="logo" href="#">
+            <Image
+                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                src="ASEA Logo Black.svg"
+                alt="ASEA Logo"
+                width={108}
+                height={27}
+              />
             </a>
-          </li>
-          <li className="mr-6">
-            <a className="text-zinc-700 hover:text-blue-700" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-            </svg>
-            </a>
-          </li>
-          <li className="mr-6"><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" />
-          </a></li>
-          <li className="mr-6"><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" />
-          </a></li>
-        </div>
-      </ul>
-    </div>
-      
+            <input type="checkbox" id="check" />
 
-    <div className="fixed container xl-auto relative flex items-start pl-10 ml-4 pt-20 mt-10">
-        <div className="flex justify-start justify-items-start">
-          <span><a href="#" className="text-zinc-500 hover:text-blue-700">
-          <img src="icons8-home.svg" width="24" height="auto" />
-               </a>
-             </span>
-             <span>&nbsp;</span>
-             <span>
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
-                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-               </svg>
-             </span>
-             <span>&nbsp;</span>
-             <span><a href="#" className="text-zinc-500 hover:text-blue-700">Shop</a></span>
-             <span>&nbsp;</span>
-             <span>
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
-                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-               </svg>
-             </span>
-             <span>&nbsp;</span>
-             <span><a href="#" className="text-zinc-500 hover:text-blue-700">Supplements</a></span>
-             <span>&nbsp;</span>
-             <span>
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" className="w-6 h-6">
-                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-               </svg>
-             </span>
-             <span>&nbsp;</span>
-             <span><a href="#" className="text-blue-600 hover:text-blue-600">ASEA Via Biome</a></span>
-         </div> */}
+            <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
+            <li className="relative group text-zinc-700">
+                    <a href="#" className="mr-4 text-zinc-700 hover:text-blue-700">Shop</a> 
+                    {/* <i className="fa-solid fa-chevron-down fa-2xs pt-3 text-zinc-700"></i> */}
 
-<header>
-  <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-    <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
-      <a className="logo" href="#">
-      <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="ASEA Logo Black.svg"
-          alt="ASEA Logo"
-          width={108}
-          height={27}
-          priority
-        />
-      </a>
-      <input type="checkbox" id="check" />
+                    <ul className="flex flex-row absolute bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg pt-20 pb-20 pl-5 w-full">
+                      <div>
+                      <li className="text-sm hover:bg-slate-100 leading-8 pl-5 pr-10 text-zinc-700 hover:text-blue-700"><b><a href="#">Filter</a></b></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">New Arrivals</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Beauty + Skincare</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Brain and Mind</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Daily</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Energy</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Gut Health</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Redox</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Supplements</a></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Uplift Mood</a></li>
+                      </div>
+                      <ul>
+                        <div className="min-w-full">
+                          <li className="pl-5 pr-10 text-zinc-700 mr-20 hover:text-blue-700">image one</li>
+                          <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image two</li>
+                          <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image three</li>
+                          <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image four</li>
+                        </div>
+                      </ul>
 
-      <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
-      <li className="relative group text-zinc-700">
-              <a href="#" className="mr-4 text-zinc-700 hover:text-blue-700">Shop</a> 
-              {/* <i className="fa-solid fa-chevron-down fa-2xs pt-3 text-zinc-700"></i> */}
-
-              <ul className="flex flex-row absolute bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg pt-20 pb-20 pl-5 w-full">
-                <div>
-                <li className="text-sm hover:bg-slate-100 leading-8 pl-5 pr-10 text-zinc-700 hover:text-blue-700"><b><a href="#">Filter</a></b></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">New Arrivals</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Beauty + Skincare</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Brain and Mind</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Daily</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Energy</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Gut Health</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Redox</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Supplements</a></li>
-                <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Uplift Mood</a></li>
-                </div>
-                <ul>
-                  <div className="min-w-full">
-                    <li className="pl-5 pr-10 text-zinc-700 mr-20 hover:text-blue-700">image one</li>
-                    <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image two</li>
-                    <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image three</li>
-                    <li className="pl-5 pr-10 text-zinc-700 hover:text-blue-700">image four</li>
-                  </div>
-                </ul>
-
-                <ul>
-                  <div className="min-w-full">
-                    <li className="mr-6 px-8 text-zinc-700 hovertext-blue-700">image five</li>
-                    <li className="mr-6 px-8 text-zinc-700 hover:text-blue-700">image six</li>
-                    <li className="mr-6 px-8 text-zinc-700 hover:text-blue-700">image seven</li>
-                    <li className="mr-6 px-8text-zinc-700 hover:text-blue-700">image eight</li>
-                  </div>
-                </ul>
-              </ul>
+                      <ul>
+                        <div className="min-w-full">
+                          <li className="mr-6 px-8 text-zinc-700 hovertext-blue-700">image five</li>
+                          <li className="mr-6 px-8 text-zinc-700 hover:text-blue-700">image six</li>
+                          <li className="mr-6 px-8 text-zinc-700 hover:text-blue-700">image seven</li>
+                          <li className="mr-6 px-8text-zinc-700 hover:text-blue-700">image eight</li>
+                        </div>
+                      </ul>
+                    </ul>
 
 
             </li>
-        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Science</a></li>
-        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Opportunity</a></li>
-        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Company</a></li>
-        <li><a href="#" className="text-zinc-700 hover:text-blue-700">Discover</a></li>
+              <li><a href="#" className="text-zinc-700 hover:text-blue-700">Science</a></li>
+              <li><a href="#" className="text-zinc-700 hover:text-blue-700">Opportunity</a></li>
+              <li><a href="#" className="text-zinc-700 hover:text-blue-700">Company</a></li>
+              <li><a href="#" className="text-zinc-700 hover:text-blue-700">Discover</a></li>
 
-        <label htmlFor="check" className="close-menu">X</label>
-      </span>
-      
-      <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
-        <li>            
-            <a className="text-zinc-700 hover:text-blue-700" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-3">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-              </svg>
-            </a></li>
-        <li>            
-          <a className="text-zinc-700 hover:text-blue-700" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" stroke-width="2" stroke="currentColor" className="w-6 h-6 ml-2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-            </svg>
-            </a></li>
-        <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" />
-          </a></li>
-        <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" />
-          </a></li>
+              <label htmlFor="check" className="close-menu">X</label>
+            </span>
+            
+            <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
+              <li>            
+                  <a className="text-zinc-700 hover:text-blue-700" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" strokeWidth="2" stroke="currentColor" className="w-6 h-6 ml-3">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                  </a></li>
+              <li>            
+                <a className="text-zinc-700 hover:text-blue-700" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" strokeWidth="2" stroke="currentColor" className="w-6 h-6 ml-2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  </svg>
+                  </a></li>
+              <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" />
+                </a></li>
+              <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" />
+                </a></li>
 
-        <label htmlFor="check" className="close-menu">X</label>
-      </span>
+              <label htmlFor="check" className="close-menu">X</label>
+            </span>
 
-      <label htmlFor="check" className="open-menu">Menu</label>
-    </ul>
-  </nav>
-</header>
-
-</div>
+            <label htmlFor="check" className="open-menu">Menu</label>
+          </ul>
+        </nav>
+      </header>
+    </div>
 
 
 <div className="bg-white w-full pt-20 mt-20 pl-20">
@@ -526,7 +251,6 @@ export default function Home() {
     </div>
 
   </main>
-  <script src="script.js" / >  
   </body>
 
 
