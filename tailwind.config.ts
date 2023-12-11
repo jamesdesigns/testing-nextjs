@@ -23,7 +23,7 @@ const config: Config = {
       // => @media (min-width: 640px) { ... }
       'laptop': '1024px',
       // => @media (min-width: 1024px) { ... }
-      'desktop': '1280px',
+      'desktop': '12800px',
       // => @media (min-width: 1280px) { ... }
     },
   },

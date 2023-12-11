@@ -11,7 +11,7 @@ export default function Home() {
     <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600 ">
       <header>
         <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-          <ul className="navigation max-w-[75vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+          <ul className="navigation max-w-[80vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
             <a className="logo" href="#">
             <Image
                 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -86,7 +86,8 @@ export default function Home() {
               <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="https://aseaglobal.com/wp-content/uploads/2023/02/US-flag.jpg" alt="EN" width="24" height="auto" />
                 </a></li>
               <li><a className="text-zinc-700 hover:text-blue-700" href="#"><img src="icons8-contrast-100.png" alt="Contrast Switch" width="24" height="auto" />
-                </a></li>
+                </a>
+              </li>
 
               <label htmlFor="check" className="close-menu">X</label>
             </span>
@@ -104,7 +105,7 @@ export default function Home() {
 
 <div className="bg-white w-full">
 
-      <footer className="container mx-auto w-11/12 bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-6 pr-6">
+      <footer className="container mx-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left">
         <div className="mx-5 py-16 text-left md:text-left">
           <div className="grid grid-cols-5 gap-5">
 
