@@ -11,7 +11,7 @@ export default function Home() {
     <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600 ">
       <header>
         <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-          <ul className="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+          <ul className="navigation max-w-[75vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
             <a className="logo" href="#">
             <Image
                 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -99,12 +99,12 @@ export default function Home() {
 
 
 <div className="bg-white w-full pt-20 mt-20 pl-20">
-        <h1>Hello Test.</h1>
+       This is a test.
 </div>
 
 <div className="bg-white w-full">
 
-      <footer className="container mx-auto bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-6 pr-6">
+      <footer className="container mx-auto w-11/12 bg-white font-light text-center text-neutral-600 dark:text-neutral-200 lg:text-left pl-6 pr-6">
         <div className="mx-5 py-16 text-left md:text-left">
           <div className="grid grid-cols-5 gap-5">
 
@@ -216,12 +216,12 @@ export default function Home() {
 
 
       <div className="bg-zinc-100 w-full">
-        <ul className="container flex flex-col md:flex-row mx-auto justify-between bg-zinc-100 pt-7 pb-7">
-            <div className="flex flex-row items-center pl-10 pb-4 md:pb-0 text-zinc-700 text-sm font-light">
+        <ul className="container flex md:flex-row mx-auto lg:flex-row xl:flex-row justify-between bg-zinc-100 pt-7 pb-7">
+            <div className="flex items-center pl-10 pb-4 md:pb-0 text-zinc-700 text-sm font-light">
               <li className="mr-5 text-zinc-700 text-sm">© 2023 ASEA LLC, All rights reserved.</li>
             </div>
 
-            <div className="flex flex-row items-center font-light pb-4 md:pb-0 mx-auto md:pl-20">
+            <div className="flex items-center font-light pb-4 md:pb-0 mx-auto md:pl-20">
               <li className="mr-0 px-0">
                 <a className="text-zinc-700 hover:text-blue-700" href="#"><img src="twitter.png" alt="Twitter Icon" width="48" height="auto" /></a>
               </li>
@@ -239,7 +239,7 @@ export default function Home() {
               </li>
             </div>
 
-            <div className="flex flex-row items-center mx-auto font-light md:pr-20">
+            <div className="flex items-center mx-auto font-light md:pr-20">
               <li className="text-zinc-700 text-sm"><a className="hover:text-blue-700" href="#">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;  <a className="hover:text-blue-700" href="#">Cookie Preference</a>  &nbsp;&nbsp;|&nbsp;&nbsp;  <a className="hover:text-blue-700" href="#">Notices</a></li>
             </div>
           </ul>
@@ -251,6 +251,9 @@ export default function Home() {
     </div>
 
   </main>
+  <script>
+
+  </script>
   </body>
 
 
