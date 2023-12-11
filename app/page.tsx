@@ -25,12 +25,12 @@ export default function Home() {
 
             <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
             <li className="relative group text-zinc-700">
-                    <a href="#" className="mr-4 text-zinc-700 hover:text-blue-700">Shop</a> 
+                    <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown" href="#" className="mr-4 text-zinc-700 hover:text-blue-700 bg-white">Shop</a> 
                     {/* <i className="fa-solid fa-chevron-down fa-2xs pt-3 text-zinc-700"></i> */}
 
-                    <ul className="flex flex-row absolute bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg pt-20 pb-20 pl-5 w-full">
+                    <ul id="dropdown" className="flex flex-row absolute w-full bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg pt-20 pb-20 pl-5 w-full">
                       <div>
-                      <li className="text-sm hover:bg-slate-100 leading-8 pl-5 pr-10 text-zinc-700 hover:text-blue-700"><b><a href="#">Filter</a></b></li>
+                      <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><b><a href="#">Filter</a></b></li>
                       <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">New Arrivals</a></li>
                       <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Beauty + Skincare</a></li>
                       <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">Brain and Mind</a></li>
@@ -67,6 +67,10 @@ export default function Home() {
               <li><a href="#" className="text-zinc-700 hover:text-blue-700">Company</a></li>
               <li><a href="#" className="text-zinc-700 hover:text-blue-700">Discover</a></li>
 
+   
+
+
+
               <label htmlFor="check" className="close-menu">X</label>
             </span>
             
@@ -99,8 +103,10 @@ export default function Home() {
     </div>
 
 
-<div className="bg-white w-full pt-20 mt-20 pl-20">
-       This is a test.
+<div className="bg-gray w-full pt-20 mt-20 pl-20">
+  <div className="mx-5 py-8 text-center md:text-left">
+       <p>This is a test.</p>
+  </div>
 </div>
 
 <div className="bg-white w-full">
@@ -252,9 +258,7 @@ export default function Home() {
     </div>
 
   </main>
-  <script>
-
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
   </body>
 
 
