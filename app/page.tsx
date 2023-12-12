@@ -109,7 +109,7 @@ export default function Home() {
   </div>
 </div> */}
 
-<div className="bg-white w-full h-96 mt-10">
+<div className="bg-white w-full mt-20 pt-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
           Trusted by the world's most innovative teams
