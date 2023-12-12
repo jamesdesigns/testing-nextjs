@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Collapse, Dropdown, Ripple, initTE} from 'tw-elements'
+import { XMarkIcon } from '@heroicons/react/20/solid'
 import 'styles.css'
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <body>
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-    <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600 ">
+    <div className="fixed bg-white w-full z-50 border-solid border-1 border-gray-600  mb-4.5">
       <header>
         <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
           <ul className="navigation max-w-[80vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
@@ -23,12 +24,11 @@ export default function Home() {
             </a>
             <input type="checkbox" id="check" />
 
-            <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
+           <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
             <li className="relative group text-zinc-700">
                     <a id="dropdownDefaultButton" data-dropdown-toggle="dropdown" href="#" className="mr-4 text-zinc-700 hover:text-blue-700 bg-white">Shop</a> 
-                    {/* <i className="fa-solid fa-chevron-down fa-2xs pt-3 text-zinc-700"></i> */}
 
-                    <ul id="dropdown" className="flex flex-row absolute w-full bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg pt-20 pb-20 pl-5 w-full">
+                    {/* <ul id="dropdown" className="flex flex-row absolute w-full bg-white p-3 top-6 transform scale-0 group-hover:scale-100 transition duration-150 ease-in-out origin-top shadow-lg pt-20 pb-20 pl-5 w-full">
                       <div>
                       <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><b><a href="#">Filter</a></b></li>
                       <li className="text-sm hover:bg-slate-100 leading-8  pl-5 pr-10 text-zinc-700 hover:text-blue-700"><a href="#">New Arrivals</a></li>
@@ -58,7 +58,7 @@ export default function Home() {
                           <li className="mr-6 px-8text-zinc-700 hover:text-blue-700">image eight</li>
                         </div>
                       </ul>
-                    </ul>
+                    </ul> */}
 
 
             </li>
@@ -73,7 +73,7 @@ export default function Home() {
 
               <label htmlFor="check" className="close-menu">X</label>
             </span>
-            
+             
             <span className="menu flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:text-lg">
               <li>            
                   <a className="text-zinc-700 hover:text-blue-700" href="#">
@@ -103,11 +103,60 @@ export default function Home() {
     </div>
 
 
-<div className="bg-gray w-full pt-20 mt-20 pl-20">
+{/* <div className="bg-gray w-full pt-20 mt-20 pl-20">
   <div className="mx-5 py-8 text-center md:text-left">
        <p>This is a test.</p>
   </div>
-</div>
+</div> */}
+
+<div className="bg-white w-full h-96 mt-10">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
+          Trusted by the world's most innovative teams
+        </h2>
+        <div className="mx-auto mt-10 flex justify-center max-w-lg items-center sm:max-w-xl py-3.5">
+          <img
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+            alt="Transistor"
+            width={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
+            alt="Reform"
+            width={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+            alt="Tuple"
+            width={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
+            alt="SavvyCal"
+            width={158}
+            height={48}
+          />
+          <img
+            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
+            alt="Statamic"
+            width={158}
+            height={48}
+          />
+        </div>
+      </div>
+    </div>
+
+
+
+
 
 <div className="bg-white w-full">
 
